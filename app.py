@@ -39,7 +39,7 @@ HEADERS = {
 @app.route('/', methods=['GET'])
 def index():
     return jsonify({
-        "status": "API çalışıyor. Tam t.me linki için: GET /https://t.me/<kanal_adresi> şeklinde istekte bulunun."
+        "status": "Kanal Linki Nerde Yarram"
     }), 200
 
 
